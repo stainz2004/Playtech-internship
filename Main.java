@@ -223,8 +223,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 1) {
-            // Keep stderr logs allowed by protocol.
-            System.err.println("Expected one arg: total ebucks");
             return;
         }
 
